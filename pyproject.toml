@@ -9,6 +9,7 @@ packages = [{include = "aio_camunda"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+aiohttp = "^3.8.5"
 
 
 [build-system]
