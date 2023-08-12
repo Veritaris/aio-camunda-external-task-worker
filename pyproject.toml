@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aio-camunda"
+version = "0.1.0"
+description = "async implementation of Camunda Client"
+authors = ["georgii.imeshkenov <georgiiimeshkenov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "aio_camunda"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
